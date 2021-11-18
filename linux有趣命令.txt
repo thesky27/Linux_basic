@@ -1,0 +1,57 @@
+装13文档：
+
+1.screenfetch:显示系统、主题信息
+安装使用:
+sudo apt install screenfetch
+screenfetch
+
+2.linux_logo:linux版本logo图片及系统信息
+安装使用:
+sudo apt install linuxlogo
+linux_logo
+for i in {1..30};do linux_logo -f -L $i;sleep 2;done  循环打印linux logo
+
+3.sl LS 蒸汽小火车
+
+4.fortune:幽默 英文名句或唐诗
+安装使用:
+sudo apt install fortune
+fortune 随机 fortune -zh唐诗
+
+5.cowsay:会说话的小牛
+安装使用:
+sudo apt install cowsay
+cowsay 要牛牛说的话
+只需用 '-l 就能看到它能提供的所有动物。输入：
+$cowsay -l
+
+6.cmatrix:黑客帝国
+安装使用:
+sudo apt install cmatrix
+cmatrix
+
+7.aafire:火焰
+安装使用:
+sudo apt install aafire
+aafire
+
+8. oneko 跟屁猫
+安装 $sudo apt-get install oneko
+运行 $oneko               要关掉这家伙，按ctrl+c 结束
+
+9. xeyes 命令
+在屏幕上出现一双眼睛，盯着你的鼠标指针
+安装运行同上
+
+10. cal 月份 年份 （打印日历）
+
+11.匀速打印
+sudo apt install pv
+echo "你要匀速打印出来的语句" | pv -qL 10
+
+12.放大打印
+安装使用:
+sudo apt install figlet
+sudo apt install toilet
+figlet moran
+toilet moran
